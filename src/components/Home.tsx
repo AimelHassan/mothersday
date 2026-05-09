@@ -13,17 +13,17 @@ export default function Home({ setCurrentTab }: { setCurrentTab: (t: Tab) => voi
 
       <section className="relative z-10 max-w-4xl w-full text-center md:text-left flex flex-col md:pl-[80px]">  
         <h2 className="font-display-lg text-[48px] sm:text-[64px] md:text-[84px] leading-[0.9] text-on-surface mb-2 md:mb-2 tracking-tight">
-            Every day is<br />her <span className="italic text-secondary">special</span> day.
+            You are my<br />everything, <span className="italic text-secondary">Mom</span>.
         </h2>
-        <p className="font-display-lg text-primary/60 italic text-lg md:text-2xl mb-6 md:mb-8">By your son Aimel</p>
+        <p className="font-display-lg text-primary/60 italic text-lg md:text-2xl mb-6 md:mb-8">I love you. <span className="not-italic text-sm opacity-60 ml-2">-- By your son Aimel</span></p>
         <p className="font-body-lg text-on-surface-variant max-w-md mx-auto md:mx-0 mb-8 md:mb-10 leading-relaxed text-[14px] md:text-[15px] opacity-75">
-            Celebrate the woman who gave you everything. Explore our curated Mother's Day collection of experiences, gifts, and memories designed to show her she's loved.
+            A small space dedicated to you - filled with our favorite moments, reasons why you're incredible, and a bouquet that never fades.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start w-full sm:w-auto mx-auto md:mx-0">
           <button
             onClick={() => setCurrentTab('memories')}
             className="bg-primary text-white font-sans text-[12px] font-semibold rounded-full px-8 py-4 uppercase tracking-[0.1em] hover:bg-black transition-all duration-300 w-full sm:w-auto active:scale-95">
-              The Gallery
+              Our Memories
           </button>
           <button
             onClick={() => setCurrentTab('bouquet')}
