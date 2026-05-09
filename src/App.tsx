@@ -19,13 +19,7 @@ export default function App() {
       
       <header className="sticky top-0 w-full z-50 bg-surface/90 backdrop-blur-md shadow-[0_4px_30px_rgba(0,0,0,0.03)] border-b border-primary/10 transition-all flex-shrink-0">
         <div className="flex justify-between items-center px-4 md:px-gutter py-3 md:py-4 max-w-container-max mx-auto">
-          <button
-            onClick={() => setCurrentTab('home')}
-            className={`text-primary hover:scale-110 transition-all duration-300 p-2 flex items-center justify-center ${currentTab === 'home' ? 'opacity-0 pointer-events-none' : 'opacity-100 hover:bg-primary/5 rounded-full'}`}
-            aria-label="Back to Home"
-          >
-            <span className="material-symbols-outlined text-[24px] md:text-[28px]">arrow_back</span>
-          </button>
+          
           <div className="font-display-lg text-[28px] md:text-[42px] leading-none text-primary select-none flex-shrink-0 text-center tracking-tight">Our Journey</div>
           <button className="text-primary hover:scale-110 transition-transform duration-300 p-2 flex items-center justify-center">
             <span className="material-symbols-outlined text-[24px] md:text-[28px]" style={{ fontVariationSettings: "'FILL' 1" }}>favorite</span>
@@ -63,3 +57,4 @@ export default function App() {
     </div>
   );
 }
+
