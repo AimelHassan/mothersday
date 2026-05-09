@@ -1,8 +1,8 @@
 export default function Bouquet() {
   const flowers = [
-    { name: 'Peony', icon: 'local_florist', colorRef: 'primary', msg: 'For all the times you listened to me ramble. Thank you for your endless patience.' },
-    { name: 'Tulip', icon: 'spa', colorRef: 'secondary', msg: 'Your smile lights up every room. I love your joyful spirit.' },
-    { name: 'Rose', icon: 'filter_vintage', colorRef: 'tertiary', msg: 'You are the strongest person I know. Your resilience inspires me daily.' },
+    { name: 'Peony', icon: 'local_florist', colorRef: 'primary', msg: "Thanks for actually listening when I ramble about random stuff. Your patience is next level." },
+    { name: 'Tulip', icon: 'spa', colorRef: 'secondary', msg: "Seriously, your vibe just makes everything better. Love seeing you happy." },
+    { name: 'Rose', icon: 'filter_vintage', colorRef: 'tertiary', msg: "You're easily the strongest person I know. I really look up to how you handle everything." },
     {
       name: 'Wildflower Patch',
       isWide: true,
@@ -12,9 +12,9 @@ export default function Bouquet() {
         { i: 'spa', c: 'text-primary', s: '50px' }
       ],
       colorRef: 'primary',
-      msg: 'Thank you for letting me grow wild and free, while always giving me a safe place to land.'
+      msg: "Thanks for letting me do my thing but always being there when I need to crash. You're my safe spot."
     },
-    { name: 'Daisy', icon: 'grass', colorRef: 'secondary', msg: 'For the simple, everyday moments that mean the world to me.' },
+    { name: 'Daisy', icon: 'grass', colorRef: 'secondary', msg: "It's the little things, like our random chats, that I appreciate the most. Love you, Mom." },
   ];
 
   const colorStyles: Record<string, string> = {
@@ -49,7 +49,7 @@ export default function Bouquet() {
 
               <div className={`flip-card-back absolute w-full h-full rounded-[1.5rem] shadow-xl flex flex-col items-center justify-center p-6 md:p-8 text-center border-2 border-transparent ${colorStyles[f.colorRef].split(' ').slice(3).join(' ')}`}>
                 <span className="material-symbols-outlined mb-4 text-3xl md:text-4xl opacity-80" style={{ fontVariationSettings: "'FILL' 1" }}>favorite</span>
-                <p className="font-body-md md:font-body-lg font-semibold text-sm md:text-base">{f.msg}</p>
+                <p className="font-body-md md:font-body-lg font-semibold text-sm md:text-base">{f.msg}</p>      
               </div>
             </div>
           </div>
