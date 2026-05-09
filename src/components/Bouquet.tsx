@@ -56,11 +56,8 @@ export default function Bouquet() {
         ))}
       </div>
 
-      <div className="mt-8 md:mt-margin flex justify-center pb-20 px-4">
-        <button className="bg-primary text-white rounded-full px-8 py-4 font-sans text-[12px] font-semibold uppercase tracking-[0.1em] hover:bg-black transition-all duration-300 shadow-[0_10px_20px_rgba(0,0,0,0.05)] flex items-center justify-center gap-2 w-full sm:w-auto active:scale-95">
-          <span className="material-symbols-outlined" style={{ fontVariationSettings: "'FILL' 1" }}>add_circle</span> Add a Bloom
-        </button>
-      </div>
+      
     </div>
   );
 }
+
